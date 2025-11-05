@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey for the cost of Nature</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <div class="form-card">
+      <h1 id="title">Survey for the cost of Nature.</h1>
+      <p id="description">This survey is intended to collect data on how much people value natural environments and how can you help for the future.</p>
+
+      <form id="survey-form">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label id="number-label">Age:</label>
+        <input type="number" id="number" name="number" min="1" max="100" required>
+
+        <label for="dropdown">Occupation:</label>
+        <select id="dropdown" name="Occupation" required>
+          <option value="" disabled selected>Select your Occupation</option>
+          <option value="student">Student</option>
+          <option value="employed">Employed</option>
+          <option value="self-employed">Self-employed</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="other">Other</option>
+        </select>
+
+        <p id="description" style="margin-bottom:6px;">How satisfied are you with the current state of natural environments?</p>
+        <div class="choice-group">
+          <label><input type="radio" name="satisfaction" value="very_satisfied"> Very Satisfied</label>
+          <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
+          <label><input type="radio" name="satisfaction" value="neutral"> Neutral</label>
+          <label><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</label>
+          <label><input type="radio" name="satisfaction" value="very_dissatisfied"> Very Dissatisfied</label>
+        </div>
+
+        <p id="description" style="margin-bottom:6px;">How often do you visit natural places (e.g., parks, beaches, forests, or mountains)?</p>
+        <div class="choice-group">
+          <label><input type="radio" name="visit_frequency" value="weekly"> Weekly</label>
+          <label><input type="radio" name="visit_frequency" value="monthly"> Monthly</label>
+          <label><input type="radio" name="visit_frequency" value="few_times_year"> A few times a year</label>
+          <label><input type="radio" name="visit_frequency" value="rarely"> Rarely</label>
+          <label><input type="radio" name="visit_frequency" value="never"> Never</label>
+        </div>
+
+        <p id="description" style="margin-bottom:6px;">How important is nature to your health and well-being?</p>
+        <div class="choice-group">
+          <label><input type="radio" name="importance" value="extremely_important"> Extremely Important</label>
+          <label><input type="radio" name="importance" value="very_important"> Very Important</label>
+          <label><input type="radio" name="importance" value="moderately_important"> Moderately Important</label>
+          <label><input type="radio" name="importance" value="slightly_important"> Slightly Important</label>
+          <label><input type="radio" name="importance" value="not_important"> Not Important</label>
+        </div>
+
+        <p id="description" style="margin-bottom:6px;">In your opinion, what is the main reason we should protect nature?</p>
+        <div class="choice-group">
+          <label><input type="checkbox" name="reason" value="For future generations"> For future generations</label>
+          <label><input type="checkbox" name="reason" value="For human health and happiness"> For human health and happiness</label>
+          <label><input type="checkbox" name="reason" value="For animals and biodiversity"> For animals and biodiversity</label>
+          <label><input type="checkbox" name="reason" value="For tourism and the economy"> For tourism and the economy</label>
+          <label><input type="checkbox" name="reason" value="Other"> Other</label>
+        </div>
+
+        <p id="description" style="margin-bottom:6px;">Would you be willing to contribute money to help maintain and protect natural environments?</p>
+        <div class="choice-group">
+          <label><input type="radio" name="contribution" value="yes"> Yes</label>
+          <label><input type="radio" name="contribution" value="no"> No</label>
+          <label><input type="radio" name="contribution" value="maybe"> Maybe</label>
+        </div>
+
+        <p id="description" style="margin-bottom:6px;">Additional comments or suggestions to save the nature:</p>
+        <textarea id="comments" name="comments" placeholder="Your comments here..."></textarea>
+
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
