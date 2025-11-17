@@ -1,0 +1,11 @@
+
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        position: relative;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
