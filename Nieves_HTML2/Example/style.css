@@ -1,0 +1,113 @@
+#profile-pic {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 5px solid #cfe7ff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background: linear-gradient(135deg, #170804, #70371d);
+    color: white;
+    line-height: 1.6;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: left;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+}
+
+.welcome-text h1 {
+    font-size: 42px;
+    margin: 0 0 15px 0;
+}
+
+.welcome-text p {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#about-me {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-container ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+}
+
+.photo-album {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.photo {
+    position: absolute;
+    width: 140px;
+    height: 180px;
+    object-fit: cover;
+    background: white;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.p1 {
+    top: 0;
+    left: 40px;
+    transform: rotate(-8deg);
+}
+
+.p2 {
+    top: 120px;
+    left: 0;
+    transform: rotate(6deg);
+}
+
+.p3 {
+    top: 180px;
+    left: 140px;
+    transform: rotate(-4deg);
+}
+
+.p4 {
+    top: 40px;
+    left: 160px;
+    transform: rotate(10deg);
+}
