@@ -1,42 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing Page</title>
+    <title>Ilocos Empanada</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-      
+
 <body>
+
 <header id="header">
-    <img id="header-img" src="pic.jpg" alt="Logo">
+
+    <img src="images.png" alt="Ilocos Empanada Logo" id="header-img">
+
     <nav id="nav-bar">
-        <a href="#Description" class="nav-link">Description</a>
-        <a href="#How_our_Product_Made" class="nav-link">How our Product Made</a>
-        <a href="#Email" class="nav-link">For Updates</a>
+        <a href="#Home" class="nav-link">Home</a>
+        <a href="#How_our_Product_Made" class="nav-link">How Our Product Made</a>
+        <a href="#Buy" class="nav-link">Buy Now</a>
+        <a href="#Contact" class="nav-link">Contact</a>
     </nav>
+
 </header>
 
 <main>
-    <section id="Description">
-        <h2 class="christmas-theme">Welcome to Our Product!</h2>
-        <p>Puto bumbong is a traditional Filipino purple rice cake, often associated with the Simbáng Gabí Christmas season devotion.</p>
-        <p>It is traditionally made from a special purple glutinous rice called pirurutong (though food coloring can also be used as a substitute) that is steamed in bamboo tubes, known as bumbong ng kawayan.</p>
-        <p>The cooked rice cake is typically served on a pre-cut banana leaf and topped with a spread of margarine or butter, a sprinkle of muscovado sugar, and generous amounts of freshly grated coconut. Some modern variations also add cheese or condensed milk.</p>  
-    </section>
 
-    <section id="How_our_Product_Made">
-        <h2 class="highlight">Watch Our Video!</h2>
-        <iframe id="video" src="https://www.youtube.com/embed/8WiP3nwihUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
+<!-- HOME -->
+<section id="Home">
 
-    <section id="Email">
-        <h2 class="christmas-theme">Sign Up for Updates!</h2>
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-            <input id="email" type="email" name="email" placeholder="Enter your email" required>
-            <input id="submit" type="submit" value="Submit">
-        </form>
-    </section>
+<div class="hero-overlay">
+
+<h1>Welcome to Our Product!</h1>
+
+<ul class="info-list">
+<li>Ilocos empanada is a famous Filipino street food from the Ilocos Region.</li>
+<li>It has a bright orange crispy rice flour shell.</li>
+<li>Filled with grated green papaya, mung beans, longganisa sausage, and a whole egg.</li>
+<li>Deep-fried to a crisp and served with spiced Ilocos vinegar (sukang Iloko).</li>
+</ul>
+
+</div>
+
+</section>
+
+
+<!-- VIDEO -->
+<section id="How_our_Product_Made">
+
+<h2>Watch How Our Product is Made</h2>
+
+<iframe
+id="video"
+src="https://www.youtube.com/embed/BZ3NKRoxCfE"
+allowfullscreen>
+</iframe>
+
+</section>
+
+
+<!-- PRODUCTS -->
+<section id="Buy">
+
+<h2>Buy Our Empanada</h2>
+
+<div class="product-container">
+
+<div class="product">
+<img src="orig.png">
+<h3>Original Empanada</h3>
+<p>Popular Filipino crispy pastry with papaya, monggo, longganisa and egg.</p>
+<p class="price">₱90</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<img src="double.jpg">
+<h3>Double Egg Empanada</h3>
+<p>Extra rich empanada with two eggs added for more flavor.</p>
+<p class="price">₱100</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<img src="vege.png">
+<h3>Vegetarian Empanada</h3>
+<p>Monggo, cabbage, and shredded papaya without meat or egg.</p>
+<p class="price">₱110</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<img src="ubod.png">
+<h3>Ubod Empanada</h3>
+<p>Made with grated palm heart instead of papaya for softer texture.</p>
+<p class="price">₱120</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<img src="beef.png">
+<h3>Corned Beef Empanada</h3>
+<p>A modern twist using delicious cooked corned beef filling.</p>
+<p class="price">₱150</p>
+<button>Buy Now</button>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="Contact">
+
+<h2>Contact Us</h2>
+
+<p>Email: CompanyName@email.com</p>
+<p>Phone: +63 912 345 6789</p>
+<p>Location: Ilocos Region, Philippines</p>
+
+</section>
+
 </main>
 
 </body>
